@@ -53,6 +53,7 @@ p {
 
 .header {
     background-image: url(../images/header-img.jpg);
+    margin-bottom   : 90px;
 }
 
 .header__inner {
@@ -142,7 +143,7 @@ p {
     background-image: url(../images/top-img.svg);
 }
 
-.top__items{
+.top__items {
     display: flex;
 }
 
@@ -151,41 +152,115 @@ p {
     height       : 288px;
     background   : #5BBFC8;
     border-radius: 10px;
-    margin: 0 10px;
+    margin       : 0 10px;
 }
 
-.top__item-price{
-    background: #B0B0B0;
+.top__item-price {
+    background   : #B0B0B0;
     border-radius: 5px;
-    width: 80px;
-    margin: 8px;
-    padding-left: 10px;
+    width        : 80px;
+    margin       : 8px;
+    padding-left : 10px;
 }
 
-.top__item-text{
+.top__item-text {
     font-weight: 800;
-    font-size: 19px;
+    font-size  : 19px;
     line-height: 25px;
-    margin: 8px;
+    margin     : 8px;
 }
 
-.top__item-img{
-    margin-top: 86px;
+.top__item-img {
+    margin-top  : 86px;
     padding-left: 8px;
 }
 
-.sedan{
+.sedan {
     background: #FFD300;
 }
 
-.sedan__img{
-margin-top: 140px;
+.sedan__img {
+    margin-top: 140px;
 }
 
-.jeep{
+.jeep {
     background: #4B5257;
 }
 
-.jeep__img{
-margin-top: 102px;
+.jeep__img {
+    margin-top: 102px;
+}
+
+.entities__title {
+    text-align   : center;
+    margin-bottom: 65px;
+}
+
+.entities__title-item {
+    font-weight: 800;
+    font-size  : 45px;
+    line-height: 55px;
+}
+
+.entities__title-text {
+    font-weight: bold;
+    font-size  : 22px;
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+.entities__yellow-text {
+    padding         : 0 3px;
+    background-color: #FFD300;
+    border-radius   : 5px;
+}
+
+.ntities__inner-images {
+    width            : 100%;
+    background-repeat: no-repeat;
+}
+
+.entities__inner-img {
+    width: 100%;
+}
+
+.entities__inner {
+    display: flex;
+}
+
+.entities__inner-list {
+    margin-bottom: 55px;
+    margin-left  : 95px;
+    padding-top  : 50px;
+}
+
+.entities__inner-dicor {
+    border   : 2px solid #171717;
+    border-radius: 5px;
+    transform    : rotate(-90deg);
+    margin-right : 13px;
+}
+
+.entities__inner-list-text {
+    font-weight: bold;
+    font-size  : 22px;
+    line-height: 45px;
+}
+
+.entities__inner-send-phone {
+    margin-left  : 124px;
+    margin-bottom: 31px;
+}
+
+#phone {
+    padding-top: 20px;
+    border     : none;
+}
+
+.send {
+    margin-left: 124px;
+}
+
+.denefits__images{
+    
 }
