@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    color          : inherit;
+    text-decoration: none;
+    cursor         : pointer;
+    font-family    : Manrope;
+    font-style     : normal;
+    font-family    : 'Manrope', sans-serif;
+}
+
+ul {
+    list-style : none;
+    font-family: Manrope;
+    font-style : normal;
+    font-family: 'Manrope', sans-serif;
+}
+
+button {
+    border         : none;
+    outline        : none;
+    text-decoration: none;
+    cursor         : pointer;
+    font-family    : Manrope;
+    font-style     : normal;
+    font-family    : 'Manrope', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Manrope;
+    font-style : normal;
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    font-family: Manrope;
+    font-style : normal;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    padding  : 0 10px;
+    max-width: 1220px;
+    margin   : 0 auto;
+}
+
+.header {
+    background-image: url(../images/header-img.jpg);
+}
+
+.header__inner {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    margin-bottom  : 95px;
+}
+
+.menu__btn {
+    display: none;
+}
+
+.menu {
+    display    : flex;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    color  : #fff;
+    padding: 0 30px;
+}
+
+.phone {
+    color : #fff;
+    margin: 0 55px;
+}
+
+.call {
+    width        : 214px;
+    height       : 55px;
+    color        : #000000;
+    background   : #5BBFC8;
+    border-radius: 5px;
+    font-weight  : 800;
+    font-size    : 16px;
+    line-height  : 22px;
+}
+
+
+
+
+.top__call {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding-bottom : 7px;
+    width          : 260px;
+    height         : 66px;
+    color          : #000000;
+    background     : #FFD200;
+    border-radius  : 5px;
+    font-weight    : 700;
+    font-size      : 16px;
+    line-height    : 22px;
+    margin-bottom  : 65px;
+}
+
+.top__title {
+    color        : #fff;
+    font-weight  : 800;
+    font-size    : 64px;
+    line-height  : 80px;
+    margin-bottom: 10px;
+}
+
+.top__text {
+    color        : #fff;
+    width        : 530px;
+    font-weight  : 300;
+    font-size    : 18px;
+    line-height  : 25px;
+    margin-bottom: 65px;
+}
+
+.top__call-img {
+    height: 23px;
+}
+
+.top__repair {
+    width           : 380px;
+    height          : 288px;
+    background-image: url(../images/top-img.svg);
+}
+
+.top__items{
+    display: flex;
+}
+
+.top__item {
+    width        : 190px;
+    height       : 288px;
+    background   : #5BBFC8;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.top__item-price{
+    background: #B0B0B0;
+    border-radius: 5px;
+    width: 80px;
+    margin: 8px;
+    padding-left: 10px;
+}
+
+.top__item-text{
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 25px;
+    margin: 8px;
+}
+
+.top__item-img{
+    margin-top: 86px;
+    padding-left: 8px;
+}
+
+.sedan{
+    background: #FFD300;
+}
+
+.sedan__img{
+margin-top: 140px;
+}
+
+.jeep{
+    background: #4B5257;
+}
+
+.jeep__img{
+margin-top: 102px;
+}
