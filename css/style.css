@@ -235,7 +235,7 @@ p {
 }
 
 .entities__inner-dicor {
-    border   : 2px solid #171717;
+    border       : 2px solid #171717;
     border-radius: 5px;
     transform    : rotate(-90deg);
     margin-right : 13px;
@@ -261,6 +261,116 @@ p {
     margin-left: 124px;
 }
 
-.denefits__images{
+.benefits {
+    width            : 100%;
+    height           : 1003px;
+    background-repeat: no-repeat;
+    background-image : url(../images/benefits.jpg);
+}
+
+.benefits__inner{
+    padding  : 0 10px;
+    max-width: 990px;
+    margin   : 0 auto;
+}
+
+.benefits__title {
+    padding-top: 95px;
+    text-align : center;
+    font-weight: 800;
+    font-size  : 45px;
+    line-height: 55px;
     
+}
+
+.benefits__list {
+position: relative;
+    padding-top    : 163px;
+}
+
+.benefits__list-item,
+.benefits__list-items {
+    margin  : 20px 0;
+    position: absolute;
+}
+
+.benefits__list-item {
+    left: -15px;
+}
+
+.benefits__list-items {
+    right: -15px;
+}
+
+.benefits__list-text,
+.benefits__list-text-left {
+    margin-bottom: 25px;
+    font-weight  : 800;
+    font-size    : 20px;
+    line-height  : 23px;
+}
+
+.benefits__list-text{
+    margin-bottom: 49px;
+}
+
+.denefits__img {
+    width       : 100%;
+    height      : 1000px;
+    text-align  : center;
+    margin-left : 0;
+    margin-right: 0;
+}
+
+.benefits__line {
+    margin-top : 15px;
+    margin-left: -20px;
+    width      : 319px;
+    border     : 1px dashed #000000;
+}
+
+.line__45deg {
+    top        : 41px;
+    position   : absolute;
+    width      : 245px;
+    border     : 1px dashed #000000;
+    transform  : rotate(44.33deg);
+    margin-left: 266px;
+    margin-top : 83px;
+}
+
+.line__-45deg {
+    top        : 216px;
+    position   : absolute;
+    width      : 245px;
+    border     : 1px dashed #000000;
+    transform  : rotate(-44.33deg);
+    margin-left: 266px;
+}
+
+.line__-45deg-ridth{
+    top        : 136px;
+    position   : absolute;
+    width      : 245px;
+    border     : 1px dashed #000000;
+    transform  : rotate(44.33deg);
+    margin-top : 83px;
+    right: 285px;
+}
+
+.line__45deg-ridth{
+    top        : 124px;
+    position   : absolute;
+    width      : 245px;
+    border     : 1px dashed #000000;
+    transform  : rotate(-44.33deg);
+right: 285px;
+}
+
+.benefits__img {
+    z-index: 1;
+    position: absolute;
+    margin  : 0 auto;
+    left    : 0;
+    right   : 0;
 }
