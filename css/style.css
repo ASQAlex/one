@@ -596,3 +596,25 @@ p {
     border    : 2px solid #90969b;
     margin-top: 20px;
 }
+
+.reviews__title{
+    font-weight  : 800;
+    font-size    : 45px;
+    line-height  : 55px;
+    text-align   : center;
+    margin-top   : 94px;
+    margin-bottom: 71px;
+}
+
+.reviews__commit{
+    margin-bottom: 97px;
+}
+
+.reviews__video{
+   width: 520px;
+   height: 255px;
+}
+
+.iframe{
+margin: 20px 20px;
+}
