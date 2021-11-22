@@ -510,9 +510,6 @@ p {
     margin-right : 40px;
 }
 
-
-.price {}
-
 .price__title {
     text-align   : center;
     font-weight  : 800;
@@ -520,42 +517,6 @@ p {
     line-height  : 55px;
     color        : #17181C;
     margin-bottom: 150px;
-}
-
-.price__list-item  {
-    display: none;
-}
-
-.price__list-item,
-.active {
-    left         : 0;
-    margin       : 0 auto;
-    margin-bottom: 70px;
-    width        : 820px;
-}
-
-.price__list {
-    margin-bottom: 5px;
-
-}
-
-.price__items {
-    display        : flex;
-    justify-content: space-between;
-    background     : #dfdede;
-    border-radius  : 5px;
-    font-weight    : 500;
-    font-size      : 17px;
-    line-height    : 45px;
-    color          : #000000;
-    padding        : 0 28px;
-}
-
-.price__item {
-    font-weight: bold;
-    font-size  : 18px;
-    line-height: 45px;
-    color      : #000000;
 }
 
 .price__button {
@@ -566,38 +527,57 @@ p {
     margin-bottom: 93px;
 }
 
+.price__roll-text {
+    margin-top   : 15px;
+    padding-right: 45px;
+}
+
 .price__roll {
     display        : flex;
     justify-content: center;
     margin-bottom  : 42px;
 }
 
-.price__roll-text{
-    margin-top: 15px;
-    padding-right: 45px;
+.roll{
+ margin: 0 10px 0 10px;
 }
 
-.roll__point{
-    margin-left: 9px;
-    margin-top: 14px;
-    position: absolute;
-    border: 5px solid #ffffff78;
-    width: 18px;
-    height: 18px;
-    background: #FFD200;
+.roll__point {
+    z-index      : 2;
+    margin-left  : 9px;
+    margin-top   : 14px;
+    position     : absolute;
+    border       : 5px solid #ffffff78;
+    width        : 18px;
+    height       : 18px;
+    background   : #FFD200;
     border-radius: 50%;
 }
 
-.p__point{
-    margin-left: 20px;
+.margin-left{
+    margin-left: 24px;
 }
+
+.tabs-content{
+    display: none;
+}
+
+.tabs-content--active {
+    display: block;
+}
+
+
+
+
 
 .price__line-button {
     border    : 2px solid #90969b;
-    margin-top: 20px;
+    margin-top: 37px;
+    position: absolute;
+    width: 316px;
 }
 
-.reviews__title{
+.reviews__title {
     font-weight  : 800;
     font-size    : 45px;
     line-height  : 55px;
@@ -606,15 +586,17 @@ p {
     margin-bottom: 71px;
 }
 
-.reviews__commit{
+.reviews__commit {
+    display      : flex;
+    flex-wrap    : wrap;
     margin-bottom: 97px;
 }
 
-.reviews__video{
-   width: 520px;
-   height: 255px;
+.reviews__video {
+    width : 520px;
+    height: 255px;
 }
 
-.iframe{
-margin: 20px 20px;
+.iframe {
+    margin: 20px 20px;
 }
