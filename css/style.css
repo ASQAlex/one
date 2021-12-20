@@ -43,7 +43,6 @@ h4 {
 }
 
 p {
-    font-family: Manrope;
     font-style : normal;
     font-family: 'Manrope', sans-serif;
 }
@@ -637,14 +636,127 @@ p {
     line-height  : 55px;
 }
 
-.img__slider{
+.slider__partners {
+    width: 89%;
+    height: 377px;
+    margin  : 20px auto;
+    overflow: hidden;
+}
+
+.slider__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: all ease 1s;
+}
+
+.img__slider {
     margin: 6px;
 }
 
-.slick-prev {
-    left: -20px;
+.slick-prev,
+.slick-next{
+    width: 32px;
+    height: 32px;
 }
 
-.slick-next {
-    right: -20px;
+
+
+
+
+
+.footer {
+    background-color: #000;
+    width           : 100%;
+    height          : 375px;
+}
+
+.footer__content {
+    width     : 1220px;
+    margin-top: -152px;
+    position  : absolute;
+    color     : #FFFFFF;
+}
+
+.footer__img {
+    margin-top : -252px;
+    margin-left: 340px;
+    width      : 1400px;
+    height     : 466px;
+}
+
+.footer__logo {
+    width        : 170px;
+    height       : 90px;
+    margin-bottom: -29px;
+}
+
+.img__avito {
+    width : 112px;
+    height: 28px;
+}
+
+.img__insta {
+    margin-left: 5px;
+    width      : 22px;
+    height     : 22px;
+}
+
+.footer__inner {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.footer__text {
+    font-weight: 800;
+    font-size  : 18px;
+    line-height: 25px;
+    margin-left: 33px;
+}
+
+.footer__phone {
+    margin-left: 133px;
+    color      : #FFD300;
+}
+
+.footer__phone-img {
+    margin-right: 10px;
+    height      : 13px;
+    width       : 13px;
+}
+
+.whatsapp {
+    margin-left  : 30px;
+    color        : #FFD300;
+    font-size    : 14px;
+    line-height  : 19px;
+    border       : 1px solid #FFD200;
+    box-sizing   : border-box;
+    border-radius: 5px;
+    padding      : 13px;
+}
+
+.footer__contact {
+    display        : flex;
+    margin-top     : 20px;
+    align-items    : center;
+    justify-content: center;
+    margin-right   : -328px;
+}
+
+.footer__line {
+    position  : absolute;
+    border    : 1px solid #fff;
+    width     : 100%;
+    margin-top: 102px;
+}
+
+.footer__and {
+    color     : #fff;
+    text-align: center;
+    margin-top: 122px;
 }
