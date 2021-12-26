@@ -18,25 +18,27 @@
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container ">
             <div class="header__menu">
                 <div class="header__inner">
                     <a href="" class="logo__img"><img src="images/logo.svg" alt=""></a>
                     <nav class="menu">
-                        <button class="menu__btn"></button>
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Преимущества</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Работы</a></li>
-                            <li class="menu__item"><a href="#" class="menu__link">Цены</a></li>
-                        </ul>
-                        <a class="header__phone" href="tel:488005551326">8 (800) 555-13-26</a>
-                        <button class="call">Заказать звонок</button>
+                            <div class="burger">
+                            </div>
+                            <div class="menu__list-link">
+                                <ul class="menu__list">
+                                    <li class="menu__item"><a href="id-1" class="menu__link">Услуги</a></li>
+                                    <li class="menu__item"><a href="id-2" class="menu__link">Преимущества</a></li>
+                                    <li class="menu__item"><a href="id-3" class="menu__link">Работы</a></li>
+                                    <li class="menu__item"><a href="id-4" class="menu__link">Цены</a></li>
+                                </ul>
+                                <a class="header__phone" href="tel:488005551326">8 (800) 555-13-26</a>
+                                <button class="call open__popup">Заказать звонок</button>
+                            </div>
                     </nav>
                 </div>
             </div>
         </div>
-
 
         <div class="top">
             <div class="container">
@@ -46,7 +48,7 @@
                         <p class="top__text">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов.
                             Подбор
                             осуществляется как по типоразмеру, так и по марке авто</p>
-                        <button class="top__call">
+                        <button class="top__call open__popup">
                             <p class="top__call-text">Вызвать шиномонтаж</p> <img class="top__call-img"
                                 src="images/whell.svg" alt="">
                         </button>
@@ -83,7 +85,7 @@
         </div>
     </header>
 
-
+<!--     
     <section class="entities">
         <div class="entities__title">
             <h2 class="entities__title-item">Для юридических лиц</h2>
@@ -108,7 +110,7 @@
                     <p class="entities__inner-text">Ваш телефон</p>
                     <input id="phone" type="tel" name="phone" placeholder="+7 (_ _ _) _ _-_ _-_ _ _">
                 </div>
-                <button class="top__call send">
+                <button class="top__call send open__popup">
                     <p class="top__call-text">Оформить заявку</p>
                 </button>
             </div>
@@ -167,13 +169,22 @@
                         <p class="call__24hr-text">Ваш телефон</p>
                         <input id="phone" class="phone" type="tel" name="phone" placeholder="+7 (_ _ _) _ _-_ _-_ _ _">
                     </div>
-                    <button class="call__24hr-send">Оформить заявку</button>
+                    <button class="call__24hr-send open__popup">Оформить заявку</button>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-
+<div class="popup__bg">
+    <div class="popup">
+        <img class="close__popup" src="images/close-popup.svg" alt="icon">
+        <p class="text__popup">МОБИЛЬНЫЙ ШИНОМОНТАЖ 24 ЧАСА В СУТКИ</p>
+        <p class="your__phone">Ваш телефон</p>
+        <input id="phone" class="phone phone__popup" type="tel" name="phone" placeholder="  +7 (_ _ _) _ _-_ _-_ _ _">
+        <button class="call__popup close__popup">Оформить заявку</button>
+    </div>
+</div>    
+<!-- 
     <section class="additionally">
         <div class="container">
             <h1 class="additionally__title">Дополнительные работы</h1>
@@ -226,12 +237,12 @@
                     <p class="price__roll-text">Выберите Ø колёс</p>
                     <div class="price__roll">
                         <a class="roll roll--active" href='#roll-1'>R 13-15 <p
-                                class="roll__point tabs-content tabs-content--active margin-left" id="roll-1"></p></a>
-                        <a class="roll" href='#roll-2'>R 16 <p class="roll__point tabs-content" id="roll-2"></p></a>
-                        <a class="roll" href='#roll-3'>R 17 <p class="roll__point tabs-content" id="roll-3"></p></a>
-                        <a class="roll" href='#roll-4'>R 18 <p class="roll__point tabs-content" id="roll-4"></p></a>
-                        <a class="roll" href='#roll-5'>R 19 <p class="roll__point tabs-content" id="roll-5"></p></a>
-                        <a class="roll" href='#roll-6'>R 20-21 <p class="roll__point tabs-content" id="roll-6"></p></a>
+                                class="roll__point tabs-content tabs-content--active margin-left"></p></a>
+                        <a class="roll" href='#roll-2'>R 16 <p class="roll__point"></p></a>
+                        <a class="roll" href='#roll-3'>R 17 <p class="roll__point"></p></a>
+                        <a class="roll" href='#roll-4'>R 18 <p class="roll__point"></p></a>
+                        <a class="roll" href='#roll-5'>R 19 <p class="roll__point"></p></a>
+                        <a class="roll" href='#roll-6'>R 20-21 <p class="roll__point"></p></a>
                         <div class="price__line-button"></div>
                     </div>
                 </div>
@@ -400,8 +411,9 @@
                         <li class="tabs-content" id="roll-6">1000/1300 ₽</li>
                     </ul>
                 </div>
+                <div class="className"> </div>
 
-                <button class="top__call price__button">
+                <button class="top__call price__button open__popup">
                     <p class="top__call-text">Вызвать шиномонтаж</p> <img class="top__call-img" src="images/whell.svg"
                         alt="">
                 </button>
@@ -459,40 +471,54 @@
             <h1 class="partners__title">НАШИ ПАРТНЁРЫ</h1>
             <div class="slider__partners">
                 <ul class="slider__wrapper">
-                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt=""></li>
-                </ul>
-                <ul class="slider__wrapper">
-                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt=""></li>
-                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt=""></li>
+                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt="">
+                        <img class="img__slider" src="images/ozon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt="">
+                        <img class="img__slider" src="images/artel.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt="">
+                        <img class="img__slider" src="images/esomia.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt="">
+                        <img class="img__slider" src="images/samsung.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt="">
+                        <img class="img__slider" src="images/uklon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt="">
+                        <img class="img__slider" src="images/zalando.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt="">
+                        <img class="img__slider" src="images/ozon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt="">
+                        <img class="img__slider" src="images/esomia.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt="">
+                        <img class="img__slider" src="images/samsung.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt="">
+                        <img class="img__slider" src="images/uklon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt="">
+                        <img class="img__slider" src="images/ozon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt="">
+                        <img class="img__slider" src="images/artel.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt="">
+                        <img class="img__slider" src="images/esomia.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt="">
+                        <img class="img__slider" src="images/samsung.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt="">
+                        <img class="img__slider" src="images/uklon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt="">
+                        <img class="img__slider" src="images/zalando.jpg" alt="">
+                    </li>
                 </ul>
             </div>
         </div>
@@ -524,7 +550,7 @@
         <p class="footer__line"></p>
         <p class="footer__and">2016-2021 © "Шины мигом"</p>
 
-    </footer>
+    </footer> -->
 
 
 
