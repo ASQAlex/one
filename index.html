@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one__project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container ">
+            <div class="header__menu">
+                <div class="header__inner">
+                    <a href="" class="logo__img"><img src="images/logo.svg" alt=""></a>
+                    <nav class="menu">
+                        <div class="burger">
+                        </div>
+                        <div class="menu__list-link">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="id-1" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="id-2" class="menu__link">Преимущества</a></li>
+                                <li class="menu__item"><a href="id-3" class="menu__link">Работы</a></li>
+                                <li class="menu__item"><a href="id-4" class="menu__link">Цены</a></li>
+                            </ul>
+                            <a class="header__phone" href="tel:488005551326">8 (800) 555-13-26</a>
+                            <button class="call open__popup">Заказать звонок</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="top">
+            <div class="container">
+                <div class="top__heading">
+                    <div class="top__content">
+                        <h1 class="top__title">Мобильный <br> ШИНОМОНТАЖ №1</h1>
+                        <p class="top__text">В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто</p>
+                        <button class="top__call call__help open__popup">
+                            <p class="top__call-text">Вызвать шиномонтаж</p> <img class="top__call-img"
+                                src="images/whell.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="top__bottom">
+                    <div class="top__items">
+                        <div class="top__repair">
+                            <h1 class="top__repair-big-text">
+                                МОБИЛЬНЫЙ РЕМОНТ И ЗАМЕНА КОЛЕС
+                            </h1>
+                            <p class="top__repair-border"></p>
+                            <p class="top__repair-text">Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств
+                            </p>
+                        </div>
+                        <div class="top__item sedan">
+                            <p class="top__item-price">от 199₽ </p>
+                            <p class="top__item-text">Легковые авто</p>
+                            <img src="images/sedan.svg" alt="" class="top__item-img sedan__img">
+                        </div>
+                        <div class="top__item jeep">
+                            <p class="top__item-price">от 299₽ </p>
+                            <p class="top__item-text">Кроссоверы, джипы, минивены</p>
+                            <img src="images/jeep.svg" alt="" class="top__item-img jeep__img">
+                        </div>
+                        <div class="top__item">
+                            <p class="top__item-price">от 399₽ </p>
+                            <p class="top__item-text">Коммерческий транспорт</p>
+                            <img src="images/truck.svg" alt="" class="top__item-img treller__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="entities">
+        <div class="entities__title">
+            <h2 class="entities__title-item">Для юридических лиц</h2>
+            <p class="entities__title-text"><span class="entities__yellow-text">Акция!</span> Первое авто бесплатно!
+            </p>
+        </div>
+        <div class="entities__inner">
+            <div class="entities__inner-images">
+                <img class="entities__inner-img" src="images/cars.jpg" alt="">
+            </div>
+            <div class="entities__inner-item">
+                <ul class="entities__inner-list">
+                    <li class="entities__inner-list-text"><span class="entities__inner-dicor"></span>Работа с НДС</li>
+                    <li class="entities__inner-list-text"><span class="entities__inner-dicor"></span>Комплексное обслуживание автопарков</li>
+                    <li class="entities__inner-list-text"><span class="entities__inner-dicor"></span>Заключение договора
+                    </li>
+                    <li class="entities__inner-list-text"><span class="entities__inner-dicor"></span>Оплата после выполнения работ</li>
+                </ul>
+                <div class="entities__inner-send-phone">
+                    <p class="entities__inner-text">Ваш телефон</p>
+                    <input id="phone" type="tel" name="phone" placeholder="+7 (_ _ _) _ _-_ _-_ _ _">
+                </div>
+                <button class="send top__call open__popup">
+                    <p class="top__call-text">Оформить заявку</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__inner">
+                <h1 class="benefits__title">Преимущества мобильного <br> шиномонтажа</h1>
+                <div class="benefits__list">
+                    <div class="benefits__ul">
+                        <ul class="benefits__list-item">
+                            <li class="benefits__list-text-left">Онлайн запись
+                                <p class="benefits__line"></p>
+                            </li>
+                            <p class="line__45deg"></p>
+                            <li class="benefits__list-text-left">Бесконтактное <br> обслуживание
+                                <p class="benefits__line">
+                                </p>
+                            </li>
+                            <li class="benefits__list-text-left">Сертифицированное <br> оборудование и мастера
+                                <p class="benefits__line"></p>
+                            </li>
+                            <li class="benefits__list-text-left">Гарантия на все виды <br> работ 365 дней
+                                <p class="benefits__line"></p>
+                            </li>
+                            <p class="line__-45deg"></p>
+                        </ul>
+                    </div>
+                    <div class="benefits__images">
+                        <img class="benefits__img" src="images/keys.svg" alt="">
+                    </div>
+                    <div class="benefits__ul">
+                        <ul class="benefits__list-items">
+                            <li class="benefits__list-text">Все типы оплат
+                                <p class="benefits__line"></p>
+                            </li>
+                            <p class="line__-45deg-ridth"></p>
+                            <li class="benefits__list-text">Без очередей
+                                <p class="benefits__line"></p>
+                            </li>
+                            <li class="benefits__list-text"> В удобном месте
+                                <p class="benefits__line"></p>
+                            </li>
+                            <p class="line__45deg-ridth"></p>
+                            <li class="benefits__list-text">В удобном месте
+                                <p class="benefits__line"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="call__24hr">
+        <div class="container">
+            <div class="call__24hr-inner">
+                <h1 class="call__24hr-title">
+                    МОБИЛЬНЫЙ ШИНОМОНТАЖ <br> 24 ЧАСА В СУТКИ
+                </h1>
+                <div class="call__24hr-button">
+                    <div class="call__24hr-phone">
+                        <p class="call__24hr-text">Ваш телефон</p>
+                        <input id="phone" class="phone" type="tel" name="phone" placeholder="+7 (_ _ _) _ _-_ _-_ _ _">
+                    </div>
+                    <button class="call__24hr-send open__popup">Оформить заявку</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="popup__bg">
+        <div class="popup">
+            <img class="close__popup" src="images/close-popup.svg" alt="icon">
+            <p class="text__popup">МОБИЛЬНЫЙ ШИНОМОНТАЖ 24 ЧАСА В СУТКИ</p>
+            <p class="your__phone">Ваш телефон</p>
+            <input id="phone" class="phone phone__popup" type="tel" name="phone" placeholder="  +7 (_ _ _) _ _-_ _-_ _ _">
+            <button class="call__popup close__popup">Оформить заявку</button>
+        </div>
+    </div>
+
+    <section class="additionally">
+        <div class="container">
+            <h1 class="additionally__title">Дополнительные работы</h1>
+            <div class="additionally__inner">
+                <img class="additionally__img" src="images/additionally.svg" alt="">
+                <ul class="additionally__list">
+                    <li class="additionally__text">Сезонное хранение шин</li>
+                    <li class="additionally__text">Ремонт шин и дисков</li>
+                    <li class="additionally__text">Снятие секреток</li>
+                    <li class="additionally__text">Ошиповка</li>
+                    <li class="additionally__text">Покраска дисков</li>
+                    <li class="additionally__text">Утилизация шин</li>
+                    <li class="additionally__text">Заправка кондиционера</li>
+                    <li class="additionally__text">Запуск авто в зимнее время</li>
+                    <li class="additionally__text">Trade in шин</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <div class="map__inner">
+                <div class="map__items">
+                    <div class="map__item">
+                        <p class="map__line"></p>
+                        <h1 class="map__title">
+                            Карта покрытия <br> мобильного <br> шиномонтажа
+                        </h1>
+                    </div>
+                    <div class="map__point-text">
+                        <p class="map__point"></p>
+                        <p class="map__text">Зона покрытия</p>
+                    </div>
+                </div>
+                <div class="footer__map">
+                    <object data="https://www.google.com/maps?q=St%20Petersburg%2C%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F&z=8&t=&ie=UTF8&output=embed">
+                        Alternative Content
+                    </object>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pice">
+        <div class="container">
+            <div class="price">
+                <h1 class="price__title">ЦЕНЫ НА МОБИЛЬНЫЙ <br> ШИНОМОНТАЖ</h1>
+                <div class="price__all">
+                    <p class="price__roll-text">Выберите Ø колёс</p>
+                    <div class="price__roll">
+                        <button class="row "></button>
+                        <div class="price__tab">
+                            <a class="tab tab--active" href='#tab-1'>R 13-15 </a>
+                            <a class="tab" href='#tab-2'>R 16 </a>
+                            <a class="tab" href='#tab-3'>R 17 </a>
+                            <a class="tab" href='#tab-4'>R 18 </a>
+                            <a class="tab" href='#tab-5'>R 19 </a>
+                            <a class="tab" href='#tab-6'>R 20-21</a>
+                        </div>
+                        <div class="price__point">
+                            <p class="roll__point margin-left point__active"></p>
+                            <p class="roll__point"></p>
+                            <p class="roll__point"></p>
+                            <p class="roll__point"></p>
+                            <p class="roll__point"></p>
+                            <p class="roll__point"></p>
+                        </div>
+                        <div class="price__line-button"></div>
+                    </div>
+                </div>
+
+                <div class="price__list-content">
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="price__list">
+                        <div class="tabs-content tabs-content--active" id="tab-1">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">120 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-2">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">160 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-3">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">240 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-4">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">360 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-5">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">480 ₽</p>
+                        </div>
+                        <div class="tabs-content" id="tab-6">
+                            <p class="price__text">Снятие и установка колеса</p>
+                            <p class="price__sell">600 ₽</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="top__call price__button open__popup">
+                    <p class="top__call-text">Вызвать шиномонтаж</p> <img class="top__call-img" src="images/whell.svg"
+                        alt="">
+                </button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="reviews">
+        <div class="container">
+            <h1 class="reviews__title">
+                Отзывы и рекомендации
+            </h1>
+            <div class="reviews__list">
+                <div class="reviews__commit">
+                    <iframe class="iframe" width="520" height="255" src="https://www.youtube.com/embed/YiJgsdzA36w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="iframe__text">Название компании</p>
+                    <p class="position">должность</p>
+                </div>
+                <div class="reviews__commit">
+                    <iframe class="iframe" width="520" height="255" src="https://www.youtube.com/embed/69yC18kT-Eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="iframe__text">Название компании</p>
+                    <p class="position">должность</p>
+                </div>
+                <div class="reviews__commit">
+                    <iframe class="iframe" width="520" height="255" src="https://www.youtube.com/embed/w7LA6CmesNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="iframe__text">Название компании</p>
+                    <p class="position">должность</p>
+                </div>
+                <div class="reviews__commit">
+                    <iframe class="iframe" width="520" height="255" src="https://www.youtube.com/embed/-s7iIJ5dszo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="iframe__text">Название компании</p>
+                    <p class="position">должность</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container">
+            <h1 class="partners__title">НАШИ ПАРТНЁРЫ</h1>
+            <div class="slider__partners">
+                <ul class="slider__wrapper">
+                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt="">
+                        <img class="img__slider" src="images/ozon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt="">
+                        <img class="img__slider" src="images/artel.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt="">
+                        <img class="img__slider" src="images/esomia.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt="">
+                        <img class="img__slider" src="images/samsung.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt="">
+                        <img class="img__slider" src="images/uklon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt="">
+                        <img class="img__slider" src="images/zalando.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt="">
+                        <img class="img__slider" src="images/ozon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/artel.jpg" alt="">
+                        <img class="img__slider" src="images/esomia.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt="">
+                        <img class="img__slider" src="images/samsung.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt="">
+                        <img class="img__slider" src="images/uklon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt="">
+                        <img class="img__slider" src="images/ozon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/zalando.jpg" alt="">
+                        <img class="img__slider" src="images/artel.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/ozon.jpg" alt="">
+                        <img class="img__slider" src="images/esomia.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/esomia.jpg" alt="">
+                        <img class="img__slider" src="images/samsung.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/samsung.jpg" alt="">
+                        <img class="img__slider" src="images/uklon.jpg" alt="">
+                    </li>
+                    <li class="slide"><img class="img__slider" src="images/uklon.jpg" alt="">
+                        <img class="img__slider" src="images/zalando.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <img class="footer__img" src="images/footer.svg" alt="">
+        <div class="container">
+            <div class="footer">
+
+                <div class="footer__inner">
+                    <img class="footer__logo-img" src="images/footer__logo.svg" alt="">
+                    <ul class="footer__list">
+                        <a class="footer__list-link">Услуги</a>
+                        <a class="footer__list-link">Преимущества</a>
+                        <a class="footer__list-link">Работы</a>
+                        <a class="footer__list-link">Цены</a>
+                    </ul>
+                    <div class="footer__phone">
+                        <img class="footer__phone-img" src="images/footer__phone.svg" alt="">
+                        <a class="footer__namber" href="tel:488005551326">8 (800) 555-13-26</a>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <img class="avito" src="images/footer__avito.svg" alt="">
+                    <img class="instagram" src="images/instagram.svg" alt="">
+                    <p class="footer__whatsapp">Написать директору в WhatsApp</p>
+                </div>
+            </div>
+            <p class="footer__line"></p>
+            <p class="footer__end">2016-2021 © "Шины мигом"</p>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/min.js"></script>
+
+</body>
+
+</html>
