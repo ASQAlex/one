@@ -623,91 +623,40 @@ object {
     margin-bottom: 150px;
 }
 
+.tabs-content {
+    display: none;
+}
+
+.tabs-content--active {
+    display: block;
+}
+
+.tabs-content {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.price__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edf0fb;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding: 5px 30px;
+}
+
+.price__text,
+.price__number {
+    z-index: 2;
+}
+
 .price__button {
     left: 0;
     right: 0;
     margin: 0 auto;
     margin-top: 63px;
     margin-bottom: 93px;
-}
-
-.price__roll-text {
-    margin-left: 259px;
-    margin-top: 15px;
-    padding-right: 45px;
-}
-
-.price__roll {
-    margin-top: -28px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 42px;
-}
-
-.price__tab {
-    margin-left: 99px;
-}
-
-.tab {
-    margin: 0 10px 0 10px;
-}
-
-.tab__point--active {
-    display: none;
-}
-
-.price__point {
-    position: absolute;
-    display: flex;
-    margin-left: 110px;
-    margin-top: 17px;
-}
-
-.roll__point {
-    z-index: 2;
-    margin: 14px 25px 0 10px;
-    position: static;
-    border: 5px solid inherit;
-    width: 18px;
-    height: 18px;
-    background: inherit;
-    border-radius: 50%;
-}
-
-.point--active {
-    background: #ffd200;
-    border: 5px solid #ffffff78;
-}
-
-.margin-left {
-    margin: 14px 43px 0px 18px;
-}
-
-.tabs-content {
-    display: none;
-}
-
-.tabs-content--active {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.price__list {
-    width: 829px;
-    margin: 0 auto;
-    background-color: #e7e7e7;
-    border-radius: 5px;
-    padding: 6px;
-    margin-bottom: 4px;
-}
-
-.price__line-button {
-    margin-left: 110px;
-    border: 2px solid #90969b;
-    margin-top: 37px;
-    position: absolute;
-    width: 330px;
 }
 
 .reviews__title {
@@ -1414,18 +1363,6 @@ footer {
         font-size: 30px;
         line-height: 35px;
         margin-bottom: 90px;
-    }
-    .roll__point {
-        display: none;
-    }
-    .roll {
-        margin-left: 10px;
-    }
-    .price__line-button {
-        display: none;
-    }
-    .price__text {
-        font-size: 15px;
     }
     .reviews__title {
         margin-top: 458px;
