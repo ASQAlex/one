@@ -1,3 +1,5 @@
+var e = document.getElementById("select");
+
 $(function() {
     const burger = document.querySelector('.burger')
     burger.addEventListener('click', () => {
@@ -27,6 +29,8 @@ $('.tab').on('click', function(e) {
     $(this).addClass('tab--active');
     $($(this).attr('href')).addClass('tabs-content--active');
 });
+
+
 
 $(function() {
     $('.slider__wrapper').slick({
