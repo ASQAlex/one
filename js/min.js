@@ -1,9 +1,9 @@
-let selectMobile = document.getElementById("selectMobile");
-$(document).ready(function() {
-    $('.js-example-basic-single').select2();
-});
-
 $(function() {
+    let selectMobile = document.getElementById("selectMobile");
+    $('.js-example-basic-single').select2();
+
+
+
     const burger = document.querySelector('.burger')
     burger.addEventListener('click', () => {
         burger.classList.toggle('burger--active');
@@ -21,21 +21,18 @@ $(function() {
     $('.close__popup').click(function() {
         $('.popup__bg').fadeOut(600);
     })
-});
 
-$('.tab').on('click', function(e) {
-    e.preventDefault();
+    $('.tab').on('click', function(e) {
+        e.preventDefault();
 
-    $($(this).siblings()).removeClass('tab--active');
-    $($(this).closest('.tabs-wrapper').siblings().find('div')).removeClass('tabs-content--active');
+        $($(this).siblings()).removeClass('tab--active');
+        $($(this).closest('.tabs-wrapper').siblings().find('div')).removeClass('tabs-content--active');
 
-    $(this).addClass('tab--active');
-    $($(this).attr('href')).addClass('tabs-content--active');
-});
-
+        $(this).addClass('tab--active');
+        $($(this).attr('href')).addClass('tabs-content--active');
+    });
 
 
-$(function() {
     $('.slider__wrapper').slick({
         dots: false,
         arrow: true,
