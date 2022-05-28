@@ -1,4 +1,7 @@
-var e = document.getElementById("select");
+let selectMobile = document.getElementById("selectMobile");
+$(document).ready(function() {
+    $('.js-example-basic-single').select2();
+});
 
 $(function() {
     const burger = document.querySelector('.burger')
