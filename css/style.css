@@ -13,8 +13,6 @@ a {
     font-family: "Manrope", sans-serif;
 }
 
-.price .tab {}
-
 ul {
     list-style: none;
     font-family: Manrope;
@@ -576,7 +574,7 @@ p {
 }
 
 .footer__map,
-iframe {
+.map__iframe {
     height: 777px;
     width: 800px;
     position: absolute;
@@ -812,7 +810,7 @@ footer {
 .footer__img {
     position: absolute;
     width: 76vw;
-    margin-top: -160px;
+    margin-top: -150px;
     right: 80px;
 }
 
@@ -830,14 +828,16 @@ footer {
 
 .footer__list {
     margin-left: 116px;
+    display: flex;
 }
 
-.footer__list-link {
+.footer__link {
     margin-right: 33px;
 }
 
 .footer__phone {
     margin-left: 101px;
+    color: #FFD300;
 }
 
 .footer__namber {
@@ -857,6 +857,13 @@ footer {
     margin-right: 30px;
 }
 
+.whatsapp {
+    color: #FFD300;
+    border: 1px solid #FFD300;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
 .footer__whatsapp {
     color: #FFD300;
     border: solid 1px #FFD300;
@@ -869,13 +876,21 @@ footer {
     width: 98vw;
     right: 1px;
     position: absolute;
-    margin-top: 65px;
+    margin-top: 86px;
 }
 
-.footer__end {
+.footer__contact {
+    margin-top: 19px;
+    margin-right: 57px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer__and {
     display: flex;
     justify-content: center;
-    margin-top: 86px;
+    margin-top: 100px;
 }
 
 @media (max-width: 1660px) {
@@ -886,7 +901,7 @@ footer {
 
 @media (max-width: 1600px) {
     .footer__map,
-    iframe {
+    .map__iframe {
         height: 777px;
         width: 700px;
     }
@@ -928,7 +943,7 @@ footer {
 }
 
 @media (max-width: 1200px) {
-    iframe {
+    .map__iframe {
         width: 600px;
     }
 }
@@ -1020,7 +1035,7 @@ footer {
         margin: 0 auto;
         max-width: 1125px;
     }
-    iframe {
+    .map__iframe {
         height: 550px;
         width: 99vw;
         margin-top: 131px;
@@ -1039,6 +1054,9 @@ footer {
     }
     .reviews__title {
         margin-top: 533px;
+    }
+    .iframe {
+        margin: 0 20px;
     }
 }
 
@@ -1407,6 +1425,9 @@ footer {
         right: 30px;
         margin-top: -54px;
     }
+    .iframe {
+        width: 300px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -1445,7 +1466,7 @@ footer {
         line-height: 35px;
         margin-bottom: 90px;
     }
-    iframe {
+    .map__iframe {
         height: 420px;
         margin-top: 80px;
     }
