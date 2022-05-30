@@ -1110,7 +1110,7 @@ footer {
     .jeep__img {
         margin-top: -42px;
     }
-    .treller__img {
+    .truck__img {
         margin-top: -58px;
     }
     .top__item-text {
@@ -1193,8 +1193,11 @@ footer {
     .footer__img {
         margin-top: -99px;
     }
-    .footer__logo-img {
-        margin-left: 0px;
+    .logo__img-footer {
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        justify-content: center;
     }
     .footer__inner {
         flex-direction: column;
@@ -1217,18 +1220,19 @@ footer {
         margin-left: 0px;
         font-size: 19px;
         margin-top: 51px;
-        margin-bottom: 82px;
+        margin-bottom: 62px;
     }
-    .footer__social {
-        align-items: center;
-        margin-right: -23px;
+    .footer__text {
+        margin-top: 20px;
+    }
+    .footer__contact {
+        margin-right: 0px;
         margin-top: 6px;
         justify-content: center;
     }
-    .footer__whatsapp {
+    .whatsapp {
         position: absolute;
-        margin-top: -557px;
-        margin-right: 26px;
+        margin-bottom: 240px;
     }
 }
 
@@ -1426,7 +1430,7 @@ footer {
         margin-top: -54px;
     }
     .iframe {
-        width: 300px;
+        width: 400px;
     }
 }
 
@@ -1556,7 +1560,7 @@ footer {
         width: 100%;
     }
     .benefits__line {
-        width: 277px;
+        width: 255px;
         margin-left: 0;
     }
     .call__24hr {
@@ -1585,6 +1589,9 @@ footer {
     }
     .price__title {
         margin-bottom: 90px;
+    }
+    .iframe {
+        width: 250px;
     }
 }
 
